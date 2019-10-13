@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace CalculateWinFormProject
 {
-    public partial class Form1 : Form
+    public partial class ArithmeticCalculator : Form
     {
-        public Form1()
+        public ArithmeticCalculator()
         {
             InitializeComponent();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            CalculateMainForm main = new CalculateMainForm();
+            this.Visible = false;
+            main.Show();
         }
     }
 }

@@ -46,14 +46,191 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AgeCalculate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AgeCalculate.Designer.cs">
+      <DependentUpon>AgeCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArithmeticCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArithmeticCalculator.Designer.cs">
+      <DependentUpon>ArithmeticCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMI.Designer.cs">
+      <DependentUpon>BMI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Click.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Click.Designer.cs">
+      <DependentUpon>Click.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Countdown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Countdown.Designer.cs">
+      <DependentUpon>Countdown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountdownDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountdownDay.Designer.cs">
+      <DependentUpon>CountdownDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscountCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscountCalculator.Designer.cs">
+      <DependentUpon>DiscountCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestAnnually.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestAnnually.Designer.cs">
+      <DependentUpon>InterestAnnually.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestCalculate.Designer.cs">
+      <DependentUpon>InterestCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestDaily.Designer.cs">
+      <DependentUpon>InterestDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestMonthly.Designer.cs">
+      <DependentUpon>InterestMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestQuarterly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestQuarterly.Designer.cs">
+      <DependentUpon>InterestQuarterly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterestSemiAnnually.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterestSemiAnnually.Designer.cs">
+      <DependentUpon>InterestSemiAnnually.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoanCalculate.Designer.cs">
+      <DependentUpon>LoanCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculateMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculateMainForm.Designer.cs">
+      <DependentUpon>CalculateMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostageCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostageCalculate.Designer.cs">
+      <DependentUpon>PostageCalculate.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectMainForm.Designer.cs">
+      <DependentUpon>ProjectMainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleCalculator.Designer.cs">
+      <DependentUpon>SimpleCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weight.Designer.cs">
+      <DependentUpon>Weight.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AgeCalculate.resx">
+      <DependentUpon>AgeCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArithmeticCalculator.resx">
+      <DependentUpon>ArithmeticCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMI.resx">
+      <DependentUpon>BMI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Click.resx">
+      <DependentUpon>Click.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Countdown.resx">
+      <DependentUpon>Countdown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountdownDay.resx">
+      <DependentUpon>CountdownDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscountCalculator.resx">
+      <DependentUpon>DiscountCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestAnnually.resx">
+      <DependentUpon>InterestAnnually.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestCalculate.resx">
+      <DependentUpon>InterestCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestDaily.resx">
+      <DependentUpon>InterestDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestMonthly.resx">
+      <DependentUpon>InterestMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestQuarterly.resx">
+      <DependentUpon>InterestQuarterly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterestSemiAnnually.resx">
+      <DependentUpon>InterestSemiAnnually.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanCalculate.resx">
+      <DependentUpon>LoanCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalculateMainForm.resx">
+      <DependentUpon>CalculateMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostageCalculate.resx">
+      <DependentUpon>PostageCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectMainForm.resx">
+      <DependentUpon>ProjectMainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +240,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SimpleCalculator.resx">
+      <DependentUpon>SimpleCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weight.resx">
+      <DependentUpon>Weight.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
