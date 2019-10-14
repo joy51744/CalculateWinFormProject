@@ -87,13 +87,6 @@ namespace CalculateWinFormProject
             age.Show();
         }
 
-        private void buttonCountdown_Click(object sender, EventArgs e)
-        {
-            Countdown countdown = new Countdown();
-            this.Visible = false;
-            countdown.Show();
-        }
-
         private void buttonCountdownDay_Click(object sender, EventArgs e)
         {
             CountdownDay day = new CountdownDay();
@@ -106,6 +99,13 @@ namespace CalculateWinFormProject
             MainForm main = new MainForm();
             this.Visible = false;
             main.Show();
+        }
+
+        private void buttonCountDay_Click(object sender, EventArgs e)
+        {
+            CountDay count = new CountDay();
+            this.Visible = false;
+            count.Show();
         }
     }
 }

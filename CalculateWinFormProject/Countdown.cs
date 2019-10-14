@@ -19,13 +19,6 @@ namespace CalculateWinFormProject
             InitializeComponent();
         }
 
-        private void toolStripLabel1_Click(object sender, EventArgs e)
-        {
-            CalculateMainForm main = new CalculateMainForm();
-            this.Visible = false;
-            main.Show();
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (waitSecond == 0)
@@ -44,6 +37,20 @@ namespace CalculateWinFormProject
         {
             timer1.Interval = 1000;
             timer1.Start();
+        }
+
+        private void toolStripLabel2_Click(object sender, EventArgs e)
+        {
+            CalculateMainForm main = new CalculateMainForm();
+            this.Visible = false;
+            main.Show();
+        }
+
+        private void 倒數日ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CountdownDay day = new CountdownDay();
+            this.Visible = false;
+            day.Show();
         }
     }
 }

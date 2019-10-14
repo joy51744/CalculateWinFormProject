@@ -43,7 +43,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAgeCalculate = new System.Windows.Forms.Button();
-            this.buttonCountdown = new System.Windows.Forms.Button();
+            this.buttonCountDay = new System.Windows.Forms.Button();
             this.buttonCountdownDay = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -197,16 +197,16 @@
             this.buttonAgeCalculate.UseVisualStyleBackColor = true;
             this.buttonAgeCalculate.Click += new System.EventHandler(this.buttonAgeCalculate_Click);
             // 
-            // buttonCountdown
+            // buttonCountDay
             // 
-            this.buttonCountdown.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountdown.Location = new System.Drawing.Point(643, 233);
-            this.buttonCountdown.Name = "buttonCountdown";
-            this.buttonCountdown.Size = new System.Drawing.Size(130, 45);
-            this.buttonCountdown.TabIndex = 87;
-            this.buttonCountdown.Text = "倒計時";
-            this.buttonCountdown.UseVisualStyleBackColor = true;
-            this.buttonCountdown.Click += new System.EventHandler(this.buttonCountdown_Click);
+            this.buttonCountDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonCountDay.Location = new System.Drawing.Point(643, 233);
+            this.buttonCountDay.Name = "buttonCountDay";
+            this.buttonCountDay.Size = new System.Drawing.Size(130, 45);
+            this.buttonCountDay.TabIndex = 87;
+            this.buttonCountDay.Text = "天數計算器";
+            this.buttonCountDay.UseVisualStyleBackColor = true;
+            this.buttonCountDay.Click += new System.EventHandler(this.buttonCountDay_Click);
             // 
             // buttonCountdownDay
             // 
@@ -225,7 +225,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonCountdownDay);
-            this.Controls.Add(this.buttonCountdown);
+            this.Controls.Add(this.buttonCountDay);
             this.Controls.Add(this.buttonAgeCalculate);
             this.Controls.Add(this.buttonLoanCalculate);
             this.Controls.Add(this.buttonPostageCalculate);
@@ -264,7 +264,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonAgeCalculate;
-        private System.Windows.Forms.Button buttonCountdown;
+        private System.Windows.Forms.Button buttonCountDay;
         private System.Windows.Forms.Button buttonCountdownDay;
     }
 }
