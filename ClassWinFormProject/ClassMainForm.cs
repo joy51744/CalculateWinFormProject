@@ -16,5 +16,19 @@ namespace ClassWinFormProject
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            ClassWinFormProject1.ClassMainForm1 main = new ClassWinFormProject1.ClassMainForm1();
+            this.Visible = false;
+            main.Show();
+        }
+
+        private void toolStripLabel2_Click(object sender, EventArgs e)
+        {
+            MainForm main = new MainForm();
+            this.Visible = false;
+            main.Show();
+        }
     }
 }
