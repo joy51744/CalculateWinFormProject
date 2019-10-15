@@ -295,5 +295,27 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassWinFormProject\ClassWinFormProject.csproj">
+      <Project>{6eb05058-db36-4aee-99e8-7ed10a85d765}</Project>
+      <Name>ClassWinFormProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControlWinFormProject\ControlWinFormProject.csproj">
+      <Project>{293ff416-f79e-4c84-a9d7-93d36f44b745}</Project>
+      <Name>ControlWinFormProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameWinFormProject\GameWinFormProject.csproj">
+      <Project>{15bca74a-58fa-4d59-a74e-b40f8c6ee297}</Project>
+      <Name>GameWinFormProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagementSystemWinFormProject\ManagementSystemWinFormProject.csproj">
+      <Project>{67897cf6-c1ad-4a2d-8f8e-61061f81a515}</Project>
+      <Name>ManagementSystemWinFormProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolWinFormProject\ToolWinFormProject.csproj">
+      <Project>{e1ff0330-f2f3-4bd5-ab32-17474779e84c}</Project>
+      <Name>ToolWinFormProject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

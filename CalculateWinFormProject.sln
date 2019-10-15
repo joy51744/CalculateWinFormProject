@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.106
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateWinFormProject", "CalculateWinFormProject\CalculateWinFormProject.csproj", "{D44264F6-AAFE-44DE-8FB8-32BC4241C2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWinFormProject", "ClassWinFormProject\ClassWinFormProject.csproj", "{6EB05058-DB36-4AEE-99E8-7ED10A85D765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystemWinFormProject", "ManagementSystemWinFormProject\ManagementSystemWinFormProject.csproj", "{67897CF6-C1AD-4A2D-8F8E-61061F81A515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWinFormProject1", "ClassWinFormProject1\ClassWinFormProject1.csproj", "{D8DB0751-D2AB-4CCB-B943-007C222F98AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameWinFormProject", "GameWinFormProject\GameWinFormProject.csproj", "{15BCA74A-58FA-4D59-A74E-B40F8C6EE297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolWinFormProject", "ToolWinFormProject\ToolWinFormProject.csproj", "{E1FF0330-F2F3-4BD5-AB32-17474779E84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlWinFormProject", "ControlWinFormProject\ControlWinFormProject.csproj", "{293FF416-F79E-4C84-A9D7-93D36F44B745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{D44264F6-AAFE-44DE-8FB8-32BC4241C2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44264F6-AAFE-44DE-8FB8-32BC4241C2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44264F6-AAFE-44DE-8FB8-32BC4241C2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB05058-DB36-4AEE-99E8-7ED10A85D765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB05058-DB36-4AEE-99E8-7ED10A85D765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB05058-DB36-4AEE-99E8-7ED10A85D765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB05058-DB36-4AEE-99E8-7ED10A85D765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67897CF6-C1AD-4A2D-8F8E-61061F81A515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67897CF6-C1AD-4A2D-8F8E-61061F81A515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67897CF6-C1AD-4A2D-8F8E-61061F81A515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67897CF6-C1AD-4A2D-8F8E-61061F81A515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DB0751-D2AB-4CCB-B943-007C222F98AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DB0751-D2AB-4CCB-B943-007C222F98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DB0751-D2AB-4CCB-B943-007C222F98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DB0751-D2AB-4CCB-B943-007C222F98AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BCA74A-58FA-4D59-A74E-B40F8C6EE297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BCA74A-58FA-4D59-A74E-B40F8C6EE297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BCA74A-58FA-4D59-A74E-B40F8C6EE297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BCA74A-58FA-4D59-A74E-B40F8C6EE297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FF0330-F2F3-4BD5-AB32-17474779E84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FF0330-F2F3-4BD5-AB32-17474779E84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FF0330-F2F3-4BD5-AB32-17474779E84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FF0330-F2F3-4BD5-AB32-17474779E84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293FF416-F79E-4C84-A9D7-93D36F44B745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293FF416-F79E-4C84-A9D7-93D36F44B745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293FF416-F79E-4C84-A9D7-93D36F44B745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293FF416-F79E-4C84-A9D7-93D36F44B745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
