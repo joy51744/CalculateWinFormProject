@@ -80,7 +80,7 @@
             // buttonLoanCalculate
             // 
             this.buttonLoanCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonLoanCalculate.Location = new System.Drawing.Point(437, 392);
+            this.buttonLoanCalculate.Location = new System.Drawing.Point(437, 384);
             this.buttonLoanCalculate.Name = "buttonLoanCalculate";
             this.buttonLoanCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonLoanCalculate.TabIndex = 85;
@@ -102,7 +102,7 @@
             // buttonDiscountCalculator
             // 
             this.buttonDiscountCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonDiscountCalculator.Location = new System.Drawing.Point(231, 392);
+            this.buttonDiscountCalculator.Location = new System.Drawing.Point(231, 384);
             this.buttonDiscountCalculator.Name = "buttonDiscountCalculator";
             this.buttonDiscountCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonDiscountCalculator.TabIndex = 83;
@@ -113,7 +113,7 @@
             // buttonArithmeticCalculator
             // 
             this.buttonArithmeticCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonArithmeticCalculator.Location = new System.Drawing.Point(231, 246);
+            this.buttonArithmeticCalculator.Location = new System.Drawing.Point(231, 242);
             this.buttonArithmeticCalculator.Name = "buttonArithmeticCalculator";
             this.buttonArithmeticCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonArithmeticCalculator.TabIndex = 82;
@@ -135,7 +135,7 @@
             // buttonSimple
             // 
             this.buttonSimple.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonSimple.Location = new System.Drawing.Point(25, 392);
+            this.buttonSimple.Location = new System.Drawing.Point(25, 384);
             this.buttonSimple.Name = "buttonSimple";
             this.buttonSimple.Size = new System.Drawing.Size(130, 45);
             this.buttonSimple.TabIndex = 80;
@@ -146,7 +146,7 @@
             // buttonBMI
             // 
             this.buttonBMI.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonBMI.Location = new System.Drawing.Point(25, 246);
+            this.buttonBMI.Location = new System.Drawing.Point(25, 242);
             this.buttonBMI.Name = "buttonBMI";
             this.buttonBMI.Size = new System.Drawing.Size(130, 45);
             this.buttonBMI.TabIndex = 79;
@@ -157,7 +157,7 @@
             // buttonInterestCalculate
             // 
             this.buttonInterestCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonInterestCalculate.Location = new System.Drawing.Point(437, 246);
+            this.buttonInterestCalculate.Location = new System.Drawing.Point(437, 242);
             this.buttonInterestCalculate.Name = "buttonInterestCalculate";
             this.buttonInterestCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonInterestCalculate.TabIndex = 78;
@@ -200,7 +200,7 @@
             // buttonCountDay
             // 
             this.buttonCountDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountDay.Location = new System.Drawing.Point(643, 248);
+            this.buttonCountDay.Location = new System.Drawing.Point(643, 244);
             this.buttonCountDay.Name = "buttonCountDay";
             this.buttonCountDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountDay.TabIndex = 87;
@@ -211,7 +211,7 @@
             // buttonCountdownDay
             // 
             this.buttonCountdownDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountdownDay.Location = new System.Drawing.Point(643, 392);
+            this.buttonCountdownDay.Location = new System.Drawing.Point(643, 384);
             this.buttonCountdownDay.Name = "buttonCountdownDay";
             this.buttonCountdownDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountdownDay.TabIndex = 88;
