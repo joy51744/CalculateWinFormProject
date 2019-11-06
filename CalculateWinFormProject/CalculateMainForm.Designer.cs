@@ -80,7 +80,7 @@
             // buttonLoanCalculate
             // 
             this.buttonLoanCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonLoanCalculate.Location = new System.Drawing.Point(437, 377);
+            this.buttonLoanCalculate.Location = new System.Drawing.Point(437, 384);
             this.buttonLoanCalculate.Name = "buttonLoanCalculate";
             this.buttonLoanCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonLoanCalculate.TabIndex = 85;
@@ -91,7 +91,7 @@
             // buttonPostageCalculate
             // 
             this.buttonPostageCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonPostageCalculate.Location = new System.Drawing.Point(437, 86);
+            this.buttonPostageCalculate.Location = new System.Drawing.Point(437, 100);
             this.buttonPostageCalculate.Name = "buttonPostageCalculate";
             this.buttonPostageCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonPostageCalculate.TabIndex = 84;
@@ -102,7 +102,7 @@
             // buttonDiscountCalculator
             // 
             this.buttonDiscountCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonDiscountCalculator.Location = new System.Drawing.Point(231, 377);
+            this.buttonDiscountCalculator.Location = new System.Drawing.Point(231, 384);
             this.buttonDiscountCalculator.Name = "buttonDiscountCalculator";
             this.buttonDiscountCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonDiscountCalculator.TabIndex = 83;
@@ -113,7 +113,7 @@
             // buttonArithmeticCalculator
             // 
             this.buttonArithmeticCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonArithmeticCalculator.Location = new System.Drawing.Point(231, 231);
+            this.buttonArithmeticCalculator.Location = new System.Drawing.Point(231, 242);
             this.buttonArithmeticCalculator.Name = "buttonArithmeticCalculator";
             this.buttonArithmeticCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonArithmeticCalculator.TabIndex = 82;
@@ -124,7 +124,7 @@
             // buttonCalculator
             // 
             this.buttonCalculator.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCalculator.Location = new System.Drawing.Point(231, 86);
+            this.buttonCalculator.Location = new System.Drawing.Point(231, 100);
             this.buttonCalculator.Name = "buttonCalculator";
             this.buttonCalculator.Size = new System.Drawing.Size(130, 45);
             this.buttonCalculator.TabIndex = 81;
@@ -135,7 +135,7 @@
             // buttonSimple
             // 
             this.buttonSimple.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonSimple.Location = new System.Drawing.Point(25, 377);
+            this.buttonSimple.Location = new System.Drawing.Point(25, 384);
             this.buttonSimple.Name = "buttonSimple";
             this.buttonSimple.Size = new System.Drawing.Size(130, 45);
             this.buttonSimple.TabIndex = 80;
@@ -146,7 +146,7 @@
             // buttonBMI
             // 
             this.buttonBMI.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonBMI.Location = new System.Drawing.Point(25, 231);
+            this.buttonBMI.Location = new System.Drawing.Point(25, 242);
             this.buttonBMI.Name = "buttonBMI";
             this.buttonBMI.Size = new System.Drawing.Size(130, 45);
             this.buttonBMI.TabIndex = 79;
@@ -157,7 +157,7 @@
             // buttonInterestCalculate
             // 
             this.buttonInterestCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonInterestCalculate.Location = new System.Drawing.Point(437, 231);
+            this.buttonInterestCalculate.Location = new System.Drawing.Point(437, 242);
             this.buttonInterestCalculate.Name = "buttonInterestCalculate";
             this.buttonInterestCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonInterestCalculate.TabIndex = 78;
@@ -168,7 +168,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(25, 86);
+            this.button1.Location = new System.Drawing.Point(25, 100);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 45);
             this.button1.TabIndex = 77;
@@ -179,17 +179,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("王漢宗顏楷體繁", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(255, 40);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(259, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 29);
+            this.label1.Size = new System.Drawing.Size(281, 33);
             this.label1.TabIndex = 76;
             this.label1.Text = "C# Calculate Project";
             // 
             // buttonAgeCalculate
             // 
             this.buttonAgeCalculate.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonAgeCalculate.Location = new System.Drawing.Point(643, 86);
+            this.buttonAgeCalculate.Location = new System.Drawing.Point(643, 100);
             this.buttonAgeCalculate.Name = "buttonAgeCalculate";
             this.buttonAgeCalculate.Size = new System.Drawing.Size(130, 45);
             this.buttonAgeCalculate.TabIndex = 86;
@@ -200,7 +200,7 @@
             // buttonCountDay
             // 
             this.buttonCountDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountDay.Location = new System.Drawing.Point(643, 233);
+            this.buttonCountDay.Location = new System.Drawing.Point(643, 244);
             this.buttonCountDay.Name = "buttonCountDay";
             this.buttonCountDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountDay.TabIndex = 87;
@@ -211,7 +211,7 @@
             // buttonCountdownDay
             // 
             this.buttonCountdownDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonCountdownDay.Location = new System.Drawing.Point(643, 377);
+            this.buttonCountdownDay.Location = new System.Drawing.Point(643, 384);
             this.buttonCountdownDay.Name = "buttonCountdownDay";
             this.buttonCountdownDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountdownDay.TabIndex = 88;

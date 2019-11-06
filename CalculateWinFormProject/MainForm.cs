@@ -28,5 +28,30 @@ namespace CalculateWinFormProject
             this.Visible = false;
             main.Show();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ClassWinFormProject.exe");
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ControlWinFormProject.exe");
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("GameWinFormProject.exe");
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ToolWinFormProject.exe");
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ManagementSystemWinFormProject.exe");
+        }
     }
 }
