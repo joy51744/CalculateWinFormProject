@@ -96,8 +96,9 @@ namespace CalculateWinFormProject
 
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("PortfolioMainForm.exe");
+            MainForm main = new MainForm();
             this.Visible = false;
+            main.Show();
         }
 
         private void buttonCountDay_Click(object sender, EventArgs e)
