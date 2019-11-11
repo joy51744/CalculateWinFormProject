@@ -32,7 +32,39 @@ namespace CalculateWinFormProject
             TimeSpan ts = end.Subtract(start);
             double dayCount = ts.TotalDays;
 
-            labelMessage.Text = "差距 " + dayCount.ToString() + " 天";
+            try
+            {
+                if (start.Date < end.Date)
+                {
+                    labelMessage.Text = end.ToShortDateString() + " 已過去 " + dayCount.ToString("f0") + " 天";
+                }
+                else if (start.Date == end.Date)
+                {
+                    labelMessage.Text = "開始時間和結束時間相同";
+                }
+                else
+                {
+                    labelMessage.Text = "差距 " + dayCount.ToString("f0") + " 天";
+                }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+        }
+
+        private void 倒數日2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CountdownDay day = new CountdownDay();
+            this.Visible = false;
+            day.Show();
+        }
+
+        private void 倒計時ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Countdown countdown = new Countdown();
+            this.Visible = false;
+            countdown.Show();
         }
     }
 }

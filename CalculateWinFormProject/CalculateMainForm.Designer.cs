@@ -63,7 +63,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
             this.toolStripLabel1.Text = "離開";
             this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
@@ -199,12 +199,12 @@
             // 
             // buttonCountDay
             // 
-            this.buttonCountDay.Font = new System.Drawing.Font("標楷體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonCountDay.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.buttonCountDay.Location = new System.Drawing.Point(643, 244);
             this.buttonCountDay.Name = "buttonCountDay";
             this.buttonCountDay.Size = new System.Drawing.Size(130, 45);
             this.buttonCountDay.TabIndex = 87;
-            this.buttonCountDay.Text = "天數計算器";
+            this.buttonCountDay.Text = "生肖星座換算";
             this.buttonCountDay.UseVisualStyleBackColor = true;
             this.buttonCountDay.Click += new System.EventHandler(this.buttonCountDay_Click);
             // 

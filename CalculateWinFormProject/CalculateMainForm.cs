@@ -102,9 +102,9 @@ namespace CalculateWinFormProject
 
         private void buttonCountDay_Click(object sender, EventArgs e)
         {
-            CountDay count = new CountDay();
+            ZodiacCalculate zodiac = new ZodiacCalculate();
             this.Visible = false;
-            count.Show();
+            zodiac.Show();
         }
     }
 }

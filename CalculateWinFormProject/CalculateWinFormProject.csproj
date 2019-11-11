@@ -189,6 +189,12 @@
     <Compile Include="Weight.Designer.cs">
       <DependentUpon>Weight.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZodiacCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZodiacCalculate.Designer.cs">
+      <DependentUpon>ZodiacCalculate.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AgeCalculate.resx">
       <DependentUpon>AgeCalculate.cs</DependentUpon>
     </EmbeddedResource>
@@ -260,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Weight.resx">
       <DependentUpon>Weight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZodiacCalculate.resx">
+      <DependentUpon>ZodiacCalculate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
